@@ -7,10 +7,10 @@ function Header() {
     return (
         <header>
             <nav>
-                <ul className="links">
-                    <li className="reveal"><Link reloadDocument to="/the_sun"> The Sun </Link></li>
-                    <li className="reveal"><Link reloadDocument to="/the_moon"> The Moon </Link></li>
-                    <li className="reveal"><Link reloadDocument to="/the_earth"> The Earth </Link></li>
+                <ul className = "links">
+                    <li className = "reveal"><Link reloadDocument to="/the_sun"> The Sun </Link></li>
+                    <li className = "reveal"><Link reloadDocument to="/the_moon"> The Moon </Link></li>
+                    <li className = "reveal"><Link reloadDocument to="/the_earth"> The Earth </Link></li>
                 </ul>
             </nav>
         </header>
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
 gsap.registerEffect({
     name: "redden",
-    defaults: { duration: 1 }, //defaults get applied to the "config" object passed to the effect below
+    defaults: { duration: 1 },
     effect: (targets, config) => {
         return gsap.to(targets, { duration: config.duration, color: "#11E4C1" });
     }
@@ -43,7 +43,7 @@ gsap.registerEffect({
 
 gsap.registerEffect({
     name: "blacken",
-    defaults: { duration: 1 }, //defaults get applied to the "config" object passed to the effect below
+    defaults: { duration: 1 },
     effect: (targets, config) => {
         return gsap.to(targets, { duration: config.duration, color: "inherit" });
     }

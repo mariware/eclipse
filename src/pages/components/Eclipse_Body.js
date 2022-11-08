@@ -15,8 +15,8 @@ function Eclipse_Body() {
                 <div className = "circle" id = "selca"></div>
             </section>
             <section className = "bg-info">
-                <h2>About</h2>
-                <p id = "about">I am currently a student in University of the Philippines, finishing my bachelor's degree in Computer Science. I am well-versed in multiple programming languages such as Python and Java and have knowledge in HTML and CSS. I have trained my communication and public speaking skills through competitive debating.</p>
+                <h2> About </h2>
+                <p id = "about"> I am currently a student in University of the Philippines, finishing my bachelor's degree in Computer Science. I am well-versed in multiple programming languages such as Python and Java and have knowledge in HTML and CSS. I have trained my communication and public speaking skills through competitive debating. </p>
                 <br />
                 <h2>Technical Proficiency</h2>
                 <p id = "about">

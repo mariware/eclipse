@@ -22,17 +22,21 @@ var cursor = document.querySelector(".cursor");
 var initCursor = false;
 
 var trigger = document.getElementById("trigger");
+
 if (trigger) {
+
     document.querySelectorAll(".reveal").forEach(element => { element.style.visibility = "hidden" });
     cursor.style.height = "70vh";
     cursor.style.width = "70vh";
+
     trigger.addEventListener("mouseenter", function () {
         cursor.classList.add("cursor-triggered");
-        gsap.effects.redden(document.querySelector(".title")); // invert #EE1B3E
+        gsap.effects.redden(document.querySelector(".title"));
         gsap.effects.inglow(document.querySelector(".circle"));
         document.querySelectorAll(".reveal").forEach(element => { element.style.visibility = "visible" });
         document.querySelectorAll(".reveal").forEach(element => { gsap.effects.redden(element) });
     });
+
     trigger.addEventListener("mouseleave", function () {
         cursor.classList.remove("cursor-triggered");
         gsap.effects.outglow(document.querySelector(".circle"));
@@ -65,7 +69,7 @@ window.onmouseout = function (e) {
 
 gsap.registerEffect({
     name: "inglow",
-    defaults: { duration: 1 }, //defaults get applied to the "config" object passed to the effect below
+    defaults: { duration: 1 },
     effect: (targets, config) => {
         return gsap.to(targets, { duration: config.duration, boxShadow: "0px 0px 50px black" });
     }
@@ -73,13 +77,10 @@ gsap.registerEffect({
 
 gsap.registerEffect({
     name: "outglow",
-    defaults: { duration: 1 }, //defaults get applied to the "config" object passed to the effect below
+    defaults: { duration: 1 },
     effect: (targets, config) => {
         return gsap.to(targets, { duration: config.duration, boxShadow: "none" });
     }
 });
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

@@ -6,10 +6,10 @@ function Footer() {
     return (
         <footer>
             <nav className = "header_black">
-                <ul className="links">
-                    <li className="reveal"><Link reloadDocument to="/the_sun"> The Sun </Link></li>
-                    <li className="reveal"><Link reloadDocument to="/the_moon"> The Moon </Link></li>
-                    <li className="reveal"><Link reloadDocument to="/the_earth"> The Earth </Link></li>
+                <ul className = "links">
+                    <li className = "reveal"><Link reloadDocument to="/the_sun"> The Sun </Link></li>
+                    <li className = "reveal"><Link reloadDocument to="/the_moon"> The Moon </Link></li>
+                    <li className = "reveal"><Link reloadDocument to="/the_earth"> The Earth </Link></li>
                 </ul>
             </nav>
             <div className = "logos">
@@ -32,3 +32,5 @@ function Footer() {
 }
 
 export default Footer
+
+// The icons used in this footer are by FreePik and are downloaded from flaticon.com.

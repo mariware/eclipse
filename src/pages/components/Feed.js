@@ -46,4 +46,7 @@ window.addEventListener("hashchange", function () {
     window.scrollTo(window.scrollX, window.scrollY + 101.5);
 });
 
+// This 'Feed' and other similar components loads multiple Markdown files and renders them using an array of promises.
+// The tutorial used to help in the creation of this code is linked below.
+
 // Code Tutorial from https://medium.com/@shawnstern/importing-multiple-markdown-files-into-a-react-component-with-webpack-7548559fce6f
