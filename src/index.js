@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom';
 import gsap from 'gsap';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import App from './App';
 
 function Page() {
 
     return (
-        <BrowserRouter basename = "eclipse/">
+        <HashRouter basename = "eclipse/">
             <App />
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
