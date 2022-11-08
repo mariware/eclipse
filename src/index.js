@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import gsap from 'gsap';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 
 import App from './App';
 
@@ -11,7 +11,9 @@ function Page() {
 
     return (
         <BrowserRouter>
-            <App />
+            <HashRouter basename="/">
+                <App />
+            </HashRouter>
         </BrowserRouter>
     )
 }
