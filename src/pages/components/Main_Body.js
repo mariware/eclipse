@@ -7,7 +7,7 @@ function Main_Body() {
         <div>
             <section className = "cover">
                 <p className = "reveal"> It has started. </p>
-                <h1 className = "title"> ECL<Link reloadDocument to = "/eclipse/eclipse"><span id = "trigger">I</span></Link>PSE </h1>
+                <h1 className = "title"> ECL<Link reloadDocument to = "/eclipse"><span id = "trigger">I</span></Link>PSE </h1>
                 <div className = "circle"></div>
             </section>
         </div>

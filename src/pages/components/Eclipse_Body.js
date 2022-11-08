@@ -11,7 +11,7 @@ function Eclipse_Body() {
         <div className = "info">
             <section className = "cover">
                 <p> Introducing </p>
-                <h1 className = "title" id = "name">MAR<Link reloadDocument to = "/eclipse/">I</Link>LAG</h1>
+                <h1 className = "title" id = "name">MAR<Link reloadDocument to = "/">I</Link>LAG</h1>
                 <div className = "circle" id = "selca"></div>
             </section>
             <section className = "bg-info">

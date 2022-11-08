@@ -8,7 +8,7 @@ import Feed from './Feed_3';
 function Sun_Body() {
     return (
         <div>
-            <Link reloadDocument to = "/eclipse/"><div className = "twilight"></div></Link>
+            <Link reloadDocument to = "/"><div className = "twilight"></div></Link>
             <Top />
             <Feed />
         </div>

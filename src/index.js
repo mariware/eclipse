@@ -10,7 +10,7 @@ import App from './App';
 function Page() {
 
     return (
-        <HashRouter basename = "eclipse/">
+        <HashRouter forceRefresh = {true}>
             <App />
         </HashRouter>
     )

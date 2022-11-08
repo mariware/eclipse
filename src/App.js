@@ -15,13 +15,13 @@ function App() {
     return (
         <div>
             <Routes>
-                <Route path = "/eclipse/" element = {<Main />} />
+                <Route path = "/" element = {<Main />} />
                 <Route path = "/the_sun" element = {<Sun />} />
-                <Route path = "/eclipse/the_sun_2" element = {<Sun2 />} />
-                <Route path = "/eclipse/the_sun_3" element = {<Sun3 />} />
-                <Route path = "/eclipse/the_earth" element = {<Earth />} />  
-                <Route path = "/eclipse/the_moon" element = {<Moon />} /> 
-                <Route path = "/eclipse/eclipse" element = {<Eclipse />} />   
+                <Route path = "/the_sun_2" element = {<Sun2 />} />
+                <Route path = "/the_sun_3" element = {<Sun3 />} />
+                <Route path = "/the_earth" element = {<Earth />} />  
+                <Route path = "/the_moon" element = {<Moon />} /> 
+                <Route path = "/eclipse" element = {<Eclipse />} />   
             </Routes>
             <div className = "cursor"></div>
         </div>

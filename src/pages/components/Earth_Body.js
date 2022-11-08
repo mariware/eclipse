@@ -8,7 +8,7 @@ import Timeline from './Timeline';
 function Earth_Body() {
     return (
         <div>
-            <Link reloadDocument to = "/eclipse/"><div className = "twilight"></div></Link>
+            <Link reloadDocument to = "/"><div className = "twilight"></div></Link>
             <Top />
             <Timeline />
         </div>
