@@ -8,9 +8,9 @@ function Header() {
         <header>
             <nav>
                 <ul className="links">
-                    <li className="reveal"><Link reloadDocument to="/eclipse/the_sun"> The Sun </Link></li>
-                    <li className="reveal"><Link reloadDocument to="/eclipse/the_moon"> The Moon </Link></li>
-                    <li className="reveal"><Link reloadDocument to="/eclipse/the_earth"> The Earth </Link></li>
+                    <li className="reveal"><Link reloadDocument to="/the_sun"> The Sun </Link></li>
+                    <li className="reveal"><Link reloadDocument to="/the_moon"> The Moon </Link></li>
+                    <li className="reveal"><Link reloadDocument to="/the_earth"> The Earth </Link></li>
                 </ul>
             </nav>
         </header>
